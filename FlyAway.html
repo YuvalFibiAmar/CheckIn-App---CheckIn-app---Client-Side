@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Flyaway</title>
+  </head>
+  <body>
+    <button class="show-modal1">About Us</button>
+    <div class="modal1 hidden">
+      <button class="close-modal1">&times;</button>
+      <h1>About Us</h1>
+      <p> 
+       FlyAway was born in 1948 along with the State of Israel, not only as an airborne bridge between the fledgling State and the world, but as an expression of national existence and pride, as the Israeli flag adorning the aircraft's tail proudly appeared in destinations around the world.
+       FlyAway grew along with the State, sharing moments of glory and joy promoting the country's growth and expanding its global reach.
+       FlyAway continues to grow in step with the country. Although the airline was privatized economically several years ago, its national spirit and commitment to Israel have never wavered.  
+      </p>
+    </div>
+
+    <div class="overlay hidden"></div>
+
+
+
+      <h1 class ="fly">Wellcome to Flyaway</h1>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsA4aGaKd0ZcJdJVqRbMZ37OWYE7euwgfOww&usqp=CAU"
+        alt="Logo"
+        class="logo"
+      />
+
+      <h2> Before checkIn</h2>
+      <p class="information">
+        You can check in to your flight 24 to 3 hours
+        before your scheduled departure. </br></br>
+        In order to check in to your flight,
+        you must have a valid passport. Prior to your journey please ensure that
+        you have all required travel documents. </br></br>
+        You can purchase a chargeable seat during online check-in, otherwise, a seat
+        will be assigned to you based on availability.</br></br>
+        Prior to your flight,please ensure that essential and valuable items such as medicines,
+        jewelry and electronic equipment will be carried in your carry-on
+        luggage and not sent in your checked baggage.
+      </p>
+
+
+      <p class="welcome">CheckIn</p>
+      <form class="login">
+        <input
+          type="text"
+          placeholder="Full Name"
+          class="login__input login__input--user"
+        />
+        <!-- In practice, use type="password" -->
+        <input
+          type="text"
+          placeholder="Passport Number"
+          maxlength="9"
+          class="login__input login__input--passport"
+        />
+        <button class="btn">&rarr;</button>
+      </form>
+  </body>
+
+
+    <script src="jsPage.js"></script>
+  </body>
+</html>
